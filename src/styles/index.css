@@ -1,0 +1,21 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Custom styles can be added here */
+body {
+  @apply bg-gray-100 text-gray-800;
+}
+
+.container {
+  @apply mx-auto px-4;
+}
+
+/* Example of a custom class with Tailwind */
+.button {
+  @apply bg-blue-500 text-white py-2 px-4 rounded;
+}
+
+.button:hover {
+  @apply bg-blue-700;
+}
